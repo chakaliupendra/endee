@@ -1,0 +1,26 @@
+# Docker Compose for Endee Vector Database
+# Used by the AI Interview Preparation Assistant
+# Start with: docker compose up -d
+
+services:
+  endee:
+    image: endeeio/endee-server:latest
+    container_name: endee-server
+    ports:
+      - "8080:8080"
+    ulimits:
+      nofile: 100000
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200m"
+        max-file: "5"
+    environment:
+      NDD_NUM_THREADS: 0           # Automatic thread detection
+      NDD_AUTH_TOKEN: ""            # Set a token here to enable auth
+    volumes:
+      - endee-data:/data
+    restart: unless-stopped
+
+volumes:
+  endee-data:
