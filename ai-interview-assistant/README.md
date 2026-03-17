@@ -1,7 +1,9 @@
 # 🎯 AI Interview Preparation Assistant
 
-> A Retrieval-Augmented Generation (RAG) system for technical interview preparation, powered by the **Endee Vector Database** and **Sentence-Transformers**.  
-> **This project is based on a forked Endee repository**, as required by Tap Academy assignment instructions.
+> A Retrieval-Augmented Generation (RAG) system for technical interview preparation, powered by the **Endee Vector Database** and **Sentence-Transformers**.
+
+**Note:** This project is built on the forked repository of [Endee](https://github.com/endee-io/endee), as required by the assignment instructions.
+
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![Endee](https://img.shields.io/badge/Vector%20DB-Endee-blueviolet)
