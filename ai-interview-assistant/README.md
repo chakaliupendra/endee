@@ -207,8 +207,8 @@ curl http://localhost:8080/api/v1/health
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/ai-interview-prep-assistant.git
-cd ai-interview-prep-assistant
+git clone https://github.com/chakaliupendra/endee
+cd ai-interview-assistant
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -277,9 +277,9 @@ There are two primary types:
 ...
 
 📄 Retrieved Documents:
-  [1] Similarity: 0.9523 — "What is polymorphism in Java?"
-  [2] Similarity: 0.7841 — "Explain the concept of OOP"
-  [3] Similarity: 0.6912 — "What is the difference between abstract class and interface?"
+  [1] Most similar question: 0.9523 — "What is polymorphism in Java?"
+  [2] Second closest match: 0.7841 — "Explain the concept of OOP"
+  [3] Third related concept: 0.6912 — "What is the difference between abstract class and interface?"
 ```
 
 ---
